@@ -4,8 +4,8 @@ from PIL import Image
 from keras._tf_keras.keras.models import load_model
 
 # Load fraud detection models
-model_500rs = load_model('cnndikbhai.h5')
-model_1000rs = load_model('xx1000.h5')
+model_500rs = load_model('Enter your 500rs model file')
+model_1000rs = load_model('Enter your 1000rs model file')
 
 # Function to preprocess the image before feeding it to the detection model
 def preprocess_detection_image(image):
